@@ -1,0 +1,110 @@
+#1
+_program
+  #1
+  _class
+    Count
+    Object
+    "tests/good5.test"
+    (
+    #2
+    _attr
+      i
+      Int
+      #2
+      _int
+        0
+      : Int
+    #3
+    _method
+      inc
+      SELF_TYPE
+      #4
+      _block
+        #5
+        _assign
+          i
+          #5
+          _plus
+            #5
+            _object
+              i
+            : Int
+            #5
+            _int
+              1
+            : Int
+          : Int
+        : Int
+        #6
+        _object
+          self
+        : SELF_TYPE
+      : SELF_TYPE
+    )
+  #11
+  _class
+    Stock
+    Count
+    "tests/good5.test"
+    (
+    #12
+    _attr
+      name
+      String
+      #4
+      _no_expr
+      : _no_type
+    #13
+    _method
+      get
+      String
+      #13
+      _object
+        name
+      : String
+    )
+  #16
+  _class
+    Main
+    Object
+    "tests/good5.test"
+    (
+    #17
+    _attr
+      a
+      Stock
+      #14
+      _no_expr
+      : _no_type
+    #18
+    _method
+      main
+      Object
+      #18
+      _block
+        #19
+        _assign
+          a
+          #19
+          _dispatch
+            #19
+            _new
+              Stock
+            : Stock
+            inc
+            (
+            )
+          : Stock
+        : Stock
+        #20
+        _dispatch
+          #20
+          _object
+            a
+          : Stock
+          get
+          (
+          )
+        : String
+      : String
+    )

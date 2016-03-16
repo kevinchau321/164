@@ -1,0 +1,17 @@
+#1
+_program
+  #1
+  _class
+    Main
+    Object
+    "tests/bad4.test"
+    (
+    #2
+    _method
+      main
+      PinkElephant
+      #2
+      _new
+        Object
+      : _no_type
+    )

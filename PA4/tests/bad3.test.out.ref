@@ -1,0 +1,2 @@
+tests/bad3.test:8: Class B cannot inherit class String.
+Compilation halted due to static semantic errors.

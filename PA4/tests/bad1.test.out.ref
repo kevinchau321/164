@@ -1,0 +1,2 @@
+tests/bad1.test:5: Method foo called with wrong number of arguments.
+Compilation halted due to static semantic errors.
